@@ -1,49 +1,130 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Mi página web</title>
+  <title>Mi Portafolio Personal</title>
   <style>
+    /* Estilos generales */
     body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 20px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
     }
 
+    /* Encabezado */
     header {
-      background-color: #333;
-      color: #fff;
-      padding: 20px;
-      text-align: center;
+    background-color: #FF5722;
+    color: #fff;
+    padding: 20px;
     }
 
     h1 {
-      margin: 0;
+    font-size: 24px;
+    margin: 0;
     }
 
-    main {
-      margin-top: 20px;
+    nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     }
 
+    nav ul li {
+    display: inline;
+    margin-right: 10px;
+    }
+
+    nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    }
+
+    #header-image {
+    width: 150px; /* Ajusta el ancho máximo de la imagen */
+    height: 150px; /* Permite que la altura se ajuste proporcionalmente */
+    border-radius: 50%;
+    }
+
+    /* Secciones */
+    section {
+    background-color: #FFC107;
+    padding: 20px;
+    margin-bottom: 20px;
+    }
+
+    h2 {
+    font-size: 18px;
+    margin-top: 0;
+    }
+
+    ul {
+    margin: 0;
+    padding: 0;
+    }
+
+    ul li {
+    margin-bottom: 10px;
+    }
+
+    /* Pie de página */
     footer {
-      background-color: #333;
-      color: #fff;
-      padding: 10px;
-      text-align: center;
+    background-color: #FF5722;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
     }
-  </style>
+
+    </style>
 </head>
 <body>
+  <!-- Encabezado -->
   <header>
-    <h1>Mi página web</h1>
+    <img id="header-image" src="https://media.licdn.com/dms/image/C5603AQHLu7PpgdT9yQ/profile-displayphoto-shrink_200_200/0/1554242522036?e=1692230400&v=beta&t=p5elzDl9B9CM0oVkAbkb183VyxavN6W6_s7mUd3y_ac" alt="Descripción de la imagen">
+    <h1>Mi Nombre</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">Sobre mí</a></li>
+        <li><a href="#projects">Proyectos</a></li>
+        <li><a href="#skills">Habilidades</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <main>
-    <h2>Bienvenido a mi página web</h2>
-    <p>¡Hola! Esta es una página web de ejemplo.</p>
-  </main>
+  <!-- Sección Sobre mí -->
+  <section id="about">
+    <h2>Sobre mí</h2>
+    <p>Economista especializado en competencia económica, análisis regulatorio y econometría. Experiencia en estudios de mercado, estimación de daños y peritaje económico.</p>
+  </section>
 
+  <!-- Sección Proyectos -->
+  <section id="projects">
+    <h2>Proyectos</h2>
+    <ul>
+      <li>Proyecto 1</li>
+      <li>Proyecto 2</li>
+      <li>Proyecto 3</li>
+    </ul>
+  </section>
+
+  <!-- Sección Habilidades -->
+  <section id="skills">
+    <h2>Habilidades</h2>
+    <ul>
+      <li>Habilidad 1</li>
+      <li>Habilidad 2</li>
+      <li>Habilidad 3</li>
+    </ul>
+  </section>
+
+  <!-- Sección Contacto -->
+  <section id="contact">
+    <h2>Contacto</h2>
+    <p>Si deseas contactarme, puedes enviar un correo a <a href="mailto:tuemail@example.com">tuemail@example.com</a>.</p>
+  </section>
+
+  <!-- Pie de página -->
   <footer>
-    &copy; 2023 Mi página web. Todos los derechos reservados.
+    <p>Derechos reservados &copy; 2023 Mi Nombre</p>
   </footer>
 </body>
 </html>
